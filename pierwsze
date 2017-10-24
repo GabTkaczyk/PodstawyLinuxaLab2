@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+#awk NF $1
+awk '!/^$/' $1
