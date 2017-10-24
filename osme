@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+tablica=(pierwszy drugi trzeci)
+
+echo ${tablica[0]}
+
+echo ${tablica[*]}
+
+#echo indeksy
+for i in "${!tablica[@]}"; do
+	echo "$i" "${tablica[$i]}"
+done
+
+
+unset tablica[2]
+echo ${tablica[*]}
+
+tablica[6]=dodatkowy
+echo ${tablica[@]}
+
