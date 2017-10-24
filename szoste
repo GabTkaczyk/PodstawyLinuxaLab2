@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+IFS=":"
+zdanie="To jest zdanie:Ladna dzis pogoda."
+for slowo in $zdanie; do
+	echo "slowo: $slowo"
+done
+
