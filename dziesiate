@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+#el
+
+grep -i .*el.* $1
